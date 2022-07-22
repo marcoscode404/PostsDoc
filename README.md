@@ -1,4 +1,4 @@
-# Blog - Space Traveling
+# DoksLab
 
 ![mock1](https://user-images.githubusercontent.com/71772559/113493479-eceeda80-94b5-11eb-94ea-59e50e56a31f.png)
 
@@ -28,6 +28,7 @@
 * [Next.js](https://nextjs.org/)
 * [Prismic CMS](https://prismic.io/)
 * [Utteranc](https://utteranc.es/)
+* Chakra UI
 
 &nbsp;
 
