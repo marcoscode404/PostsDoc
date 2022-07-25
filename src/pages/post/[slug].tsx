@@ -105,7 +105,7 @@ export default function Post({
       <Head>
         <title>DocksLab | {post.data.title}</title>
       </Head>
-      <Header />
+      <Header  src="icone.svg" />
       {/*  */}
       <img src={post.data.banner.url} alt="imagem" className={styles.banner} />
       <main className={commonStyles.container}>

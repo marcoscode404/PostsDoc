@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { Avatar, background, Flex, Image} from '@chakra-ui/react';
+import { Avatar, background, Box, Flex, Image} from '@chakra-ui/react';
 import Link from 'next/link';
 import { FiGithub } from 'react-icons/fi';
 import styles from './header.module.scss';
@@ -16,7 +16,7 @@ import styles from './header.module.scss';
 // }
 
 
-export default function Header ():  JSX.Element {
+export default function Header (props):  JSX.Element {
 
   return (
     <header className={styles.postHeader}
@@ -24,11 +24,15 @@ export default function Header ():  JSX.Element {
     >
       <Link href="/">
         <Flex gap=".5rem">
-          <Image
-            src="icone.svg" alt="icone"
-            w="1.9rem"
+          <Image 
+            src="icone.svg" 
+            alt="icone" 
+            w="1.9rem" 
+            cursor="pointer"
           />
-            <h1>DoksLab</h1>
+            <Box cursor="pointer" fontSize="1.5rem">
+              DoksLab
+            </Box>
         </Flex>
       </Link>
 
@@ -37,9 +41,11 @@ export default function Header ():  JSX.Element {
         alignItems="center"
         justifyContent="space-between"
         bg="#018C63"
+        border="1px solid #2de6ae"
         w="8rem"
         p="5"
         borderRadius="8"
+        cursor="pointer"
       >
         <p>Marcos Vini</p>
 
@@ -47,8 +53,9 @@ export default function Header ():  JSX.Element {
         <Avatar
           bg= '#0ddb9d'
           borderRadius="50%"
-          icon={<FiGithub fontSize='1.5rem'/>}
+          icon={<FiGithub fontSize='1.5rem' />}
           color= "#116839"
+          border="1px solid #84f8d5"
           p="2"
           w="1.5rem"
           h="1.5rem"
