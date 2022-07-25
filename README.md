@@ -1,4 +1,13 @@
-# Blog - Space Traveling
+# Blog - DoksLab
+
+para configurar a conexão com a api do prismic
+crie o arquivo na raiz .env.local
+
+Configure as chaves exemplo
+PRISMIC_ACCESS_TOKEN=MC5ZbmExemplo.77-9BO-_Exemplo-_exemplos-_ve-_vTgYTe-_Exemplo-9QO-_ve-_vUfvv70exemplo
+PRISMIC_API_ENDPOINT=https://spacetravelingnovo10exemplo.prismic.io/api/v2
+
+
 
 ![mock1](https://user-images.githubusercontent.com/71772559/113493479-eceeda80-94b5-11eb-94ea-59e50e56a31f.png)
 
