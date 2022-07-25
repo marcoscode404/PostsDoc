@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blog - DoksLab
 
 para configurar a conexão com a api do prismic
@@ -8,6 +9,9 @@ PRISMIC_ACCESS_TOKEN=MC5ZbmExemplo.77-9BO-_Exemplo-_exemplos-_ve-_vTgYTe-_Exempl
 PRISMIC_API_ENDPOINT=https://spacetravelingnovo10exemplo.prismic.io/api/v2
 
 
+=======
+# DoksLab
+>>>>>>> refs/remotes/origin/main
 
 ![mock1](https://user-images.githubusercontent.com/71772559/113493479-eceeda80-94b5-11eb-94ea-59e50e56a31f.png)
 
@@ -37,10 +41,15 @@ PRISMIC_API_ENDPOINT=https://spacetravelingnovo10exemplo.prismic.io/api/v2
 * [Next.js](https://nextjs.org/)
 * [Prismic CMS](https://prismic.io/)
 * [Utteranc](https://utteranc.es/)
+* Chakra UI
 
 &nbsp;
 
-<img src="https://user-images.githubusercontent.com/71772559/113493868-cd59b100-94b9-11eb-8506-64061203ce08.gif" width="100%" />
+
+
+https://user-images.githubusercontent.com/51343240/180500708-21ecb7bb-dfd1-45c4-8881-18e4407ca475.mp4
+
+
 
 &nbsp;
 
