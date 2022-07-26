@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Blog - DoksLab
 
 para configurar a conexão com a api do prismic
@@ -12,6 +13,9 @@ PRISMIC_API_ENDPOINT=https://spacetravelingnovo10exemplo.prismic.io/api/v2
 =======
 # DoksLab
 >>>>>>> refs/remotes/origin/main
+=======
+# DoksLab
+>>>>>>> origin
 
 ![mock1](https://user-images.githubusercontent.com/71772559/113493479-eceeda80-94b5-11eb-94ea-59e50e56a31f.png)
 
