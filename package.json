@@ -15,7 +15,7 @@
     "@emotion/styled": "^11",
     "@prismicio/client": "^5.1.0",
     "date-fns": "^2.19.0",
-    "framer-motion": "^4",
+    "framer-motion": "^4.1.17",
     "js-cookie": "^2.2.1",
     "next": "10.0.7",
     "nextjs-progressbar": "^0.0.8",
