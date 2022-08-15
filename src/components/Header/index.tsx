@@ -1,25 +1,20 @@
 /* eslint-disable prettier/prettier */
-import { Avatar, background, Box, Flex, Image} from '@chakra-ui/react';
+import { Avatar, background, Box, Breadcrumb, Flex, Image} from '@chakra-ui/react';
 import Link from 'next/link';
 import { FiGithub } from 'react-icons/fi';
 import styles from './header.module.scss';
 
 
-// interface Post {
-//     data: {
-//       author: string;
-//     }
-// }
-
-// interface Teste {
-//   post: Post;
-// }
-
-
 export default function Header (props):  JSX.Element {
 
   return (
-    <header className={styles.postHeader}
+    <Box 
+      maxWidth="100%" h="5rem" 
+      display="flex" 
+      justifyContent="space-between"
+      alignItems="center"
+      bg="#015F43;" 
+      m="0 auto" p=".2rem" 
 
     >
       <Link href="/">
@@ -63,6 +58,6 @@ export default function Header (props):  JSX.Element {
 
       </Flex>
 
-    </header>
+    </Box>
   );
 }
