@@ -1,7 +1,8 @@
 /* eslint-disable prettier/prettier */
-import { Avatar, background, Box, Breadcrumb, Flex, Image} from '@chakra-ui/react';
+import { Avatar,  Box,  Flex, Image, WrapItem} from '@chakra-ui/react';
 import Link from 'next/link';
 import { FiGithub } from 'react-icons/fi';
+import StatusIndicator from '../status';
 import styles from './header.module.scss';
 
 
@@ -17,6 +18,7 @@ export default function Header (props):  JSX.Element {
       m="0 auto" p=".2rem" 
 
     >
+      
       <Link href="/">
         <Flex gap=".5rem">
           <Image 
@@ -37,15 +39,17 @@ export default function Header (props):  JSX.Element {
         justifyContent="space-between"
         bg="#018C63"
         border="1px solid #2de6ae"
-        w="8rem"
+        w="11rem"
         p="5"
         borderRadius="8"
         cursor="pointer"
       >
-        <p>Marcos Vini</p>
+       
+
+        <p>Douglas balde</p>
 
 
-        <Avatar
+        {/* <Avatar
           bg= '#0ddb9d'
           borderRadius="50%"
           icon={<FiGithub fontSize='1.5rem' />}
@@ -54,7 +58,17 @@ export default function Header (props):  JSX.Element {
           p="2"
           w="1.5rem"
           h="1.5rem"
-        />
+        /> */}
+
+          <WrapItem>
+              <Avatar 
+                w="2.5rem" h="2.5rem" p="2"
+                borderRadius="50%"
+                border="1px solid #84f8d5"
+                bg= "#0a1511"
+                color="white"
+                name='Douglas Balde' src='https://bit.ly/code-beast' />
+          </WrapItem>
 
       </Flex>
 
